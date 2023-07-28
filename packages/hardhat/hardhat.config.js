@@ -28,7 +28,7 @@ const { isAddress, getAddress, formatUnits, parseUnits } = utils;
 //
 // Select the network you want to deploy to here:
 //
-const defaultNetwork = "localhost";
+const defaultNetwork = "sepolia";
 
 const mainnetGwei = 21;
 
@@ -148,7 +148,8 @@ module.exports = {
       },
     },
     sepolia: {
-      url: "https://sepolia.infura.io/v3/ec6a8acd1d354717acec099ad46a0bab", // <---- YOUR INFURA ID! (or it won't work)
+      url: "https://sepolia.infura.io/v3/e8c7a1b30f8f494481007197f6febd78", // <---- YOUR INFURA ID! (or it won't work)
+      // url: "https://sepolia.infura.io/v3/ec6a8acd1d354717acec099ad46a0bab", // <---- YOUR INFURA ID! (or it won't work)
       //      url: "https://speedy-nodes-nyc.moralis.io/XXXXXXXXXXXXXXXXXXXXXXXXX/eth/sepolia", // <---- YOUR MORALIS ID! (not limited to infura)
       accounts: {
         mnemonic: mnemonic(),
@@ -315,7 +316,7 @@ module.exports = {
     },
   },
   etherscan: {
-    apiKey: "DNXJA8RX2Q3VZ4URQIWP7Z68CJXQZSC6AW",
+    apiKey: "ZKQBYF6PE8M9AE1NKEF5YU9CYR99P5ENI9",
   },
 };
 
